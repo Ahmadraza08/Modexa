@@ -64,7 +64,7 @@ const Navbar = () => {
           </button>
         )}
       </div> */}
-      <div className="mt-auto p-6">
+      <div className="mt-auto p-6 hidden sm:flex items-center gap-4">
             {token ? (
               <button
                 onClick={logout}
