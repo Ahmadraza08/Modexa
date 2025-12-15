@@ -86,7 +86,7 @@ export const assets = {
     p_img6,
     p_img7,
     p_img8,
-    p_img9,
+    // p_img9,
     p_img10,
     p_img11,
     p_img12,

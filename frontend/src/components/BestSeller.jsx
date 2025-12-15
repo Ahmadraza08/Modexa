@@ -102,35 +102,35 @@ const categories = ["Bedroom", "Washroom", "Lounge", "Office", "Kitchen"];
 
 const staticProjects = [
   // Bedroom
-  { name: "Luxury Bedroom 1", category: "Bedroom", image: assets.p_img1, description: "Elegant bedroom with modern touch." },
-  { name: "Luxury Bedroom 2", category: "Bedroom", image: assets.p_img3, description: "Cozy and stylish bedroom." },
-  { name: "Luxury Bedroom 3", category: "Bedroom", image: assets.p_img4, description: "Minimalist bedroom design." },
-  { name: "Luxury Bedroom 4", category: "Bedroom", image: assets.p_img5, description: "Classic bedroom with warm tones." },
-  { name: "Luxury Bedroom 5", category: "Bedroom", image: assets.p_img9, description: "Spacious bedroom with natural light." },
+  { name: "Luxury Bedroom 1", category: "Bedroom", image: assets.p_img5, description: "Elegant bedroom with modern touch." },
+  { name: "Luxury Bedroom 2", category: "Bedroom", image: assets.p_img10, description: "Cozy and stylish bedroom." },
+  // { name: "Luxury Bedroom 3", category: "Bedroom", image: assets.p_img4, description: "Minimalist bedroom design." },
+  // { name: "Luxury Bedroom 4", category: "Bedroom", image: assets.p_img5, description: "Classic bedroom with warm tones." },
+  // { name: "Luxury Bedroom 5", category: "Bedroom", image: assets.p_img9, description: "Spacious bedroom with natural light." },
   // Washroom
-  { name: "Washroom 1", category: "Washroom", image: assets.p_img9, description: "Minimalist washroom with functionality." },
-  { name: "Washroom 2", category: "Washroom", image: assets.p_img10, description: "Elegant tiles and fixtures." },
-  { name: "Washroom 3", category: "Washroom", image: assets.p_img13, description: "Compact yet stylish design." },
-  { name: "Washroom 4", category: "Washroom", image: assets.p_img14, description: "Luxury spa-style washroom." },
-  { name: "Washroom 5", category: "Washroom", image: assets.p_img15, description: "Modern aesthetic washroom." },
+  // { name: "Washroom 1", category: "Washroom", image: assets.p_img9, description: "Minimalist washroom with functionality." },
+  // { name: "Washroom 2", category: "Washroom", image: assets.p_img10, description: "Elegant tiles and fixtures." },
+  // { name: "Washroom 3", category: "Washroom", image: assets.p_img13, description: "Compact yet stylish design." },
+  { name: "Washroom 1", category: "Washroom", image: assets.p_img14, description: "Luxury spa-style washroom." },
+  { name: "Washroom 2", category: "Washroom", image: assets.p_img15, description: "Modern aesthetic washroom." },
   // Lounge
-  { name: "Lounge 1", category: "Lounge", image: assets.p_img16, description: "Relaxing lounge with comfy sofas." },
+  { name: "Lounge 1", category: "Lounge", image: assets.p_img3, description: "Relaxing lounge with comfy sofas." },
   { name: "Lounge 2", category: "Lounge", image: assets.p_img17, description: "Open space with natural light." },
-  { name: "Lounge 3", category: "Lounge", image: assets.p_img18, description: "Modern lounge area with minimal décor." },
+  { name: "Lounge 3", category: "Lounge", image: assets.p_img21, description: "Modern lounge area with minimal décor." },
   { name: "Lounge 4", category: "Lounge", image: assets.p_img20, description: "Classic lounge setup for guests." },
-  { name: "Lounge 5", category: "Lounge", image: assets.p_img21, description: "Cozy lounge with warm lighting." },
+  // { name: "Lounge 5", category: "Lounge", image: assets.p_img21, description: "Cozy lounge with warm lighting." },
   // Office
   { name: "Office 1", category: "Office", image: assets.p_img1, description: "Professional office with ergonomic furniture." },
-  { name: "Office 2", category: "Office", image: assets.p_img3, description: "Open-plan workspace." },
-  { name: "Office 3", category: "Office", image: assets.p_img4, description: "Minimalist home office." },
-  { name: "Office 4", category: "Office", image: assets.p_img5, description: "Corporate office interior." },
-  { name: "Office 5", category: "Office", image: assets.p_img9, description: "Stylish office setup for startups." },
+  { name: "Office 2", category: "Office", image: assets.p_img4, description: "Open-plan workspace." },
+  // { name: "Office 3", category: "Office", image: assets.p_img4, description: "Minimalist home office." },
+  // { name: "Office 4", category: "Office", image: assets.p_img5, description: "Corporate office interior." },
+  // { name: "Office 5", category: "Office", image: assets.p_img9, description: "Stylish office setup for startups." },
   // Kitchen
-  { name: "Kitchen 1", category: "Kitchen", image: assets.p_img1, description: "Modern kitchen with island." },
-  { name: "Kitchen 2", category: "Kitchen", image: assets.p_img3, description: "Fully equipped kitchen." },
-  { name: "Kitchen 3", category: "Kitchen", image: assets.p_img4, description: "Compact kitchen design." },
-  { name: "Kitchen 4", category: "Kitchen", image: assets.p_img5, description: "Luxury kitchen with marble finish." },
-  { name: "Kitchen 5", category: "Kitchen", image: assets.p_img9, description: "Open kitchen with dining area." },
+  { name: "Kitchen 1", category: "Kitchen", image: assets.p_img13, description: "Modern kitchen with island." },
+  // { name: "Kitchen 2", category: "Kitchen", image: assets.p_img3, description: "Fully equipped kitchen." },
+  // { name: "Kitchen 3", category: "Kitchen", image: assets.p_img4, description: "Compact kitchen design." },
+  // { name: "Kitchen 4", category: "Kitchen", image: assets.p_img5, description: "Luxury kitchen with marble finish." },
+  // { name: "Kitchen 5", category: "Kitchen", image: assets.p_img9, description: "Open kitchen with dining area." },
 ];
 
 const Projects = () => {
